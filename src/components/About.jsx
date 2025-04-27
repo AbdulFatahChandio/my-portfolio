@@ -25,7 +25,7 @@ const About = () => {
         I enjoy creating or redesigning a distinct identity for a product or service, get more traffic from search engine and social platforms.
         </p>
         <p className="text-xl mt-5">
-          Stay Connted : abdulfatahchandio61@gmail.com
+          Stay Connected : <strong>abdulfatahchandio010@gmail.com</strong>
         </p>
         
 
@@ -35,4 +35,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About;   

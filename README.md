@@ -65,8 +65,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+The easiest way to deploy your React.js app is to use the Vercel Platform from the creators of React.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Check out our React.js deployment documentation for more details.
+
 
 ### `npm run build` fails to minify
 

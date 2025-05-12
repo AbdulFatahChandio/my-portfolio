@@ -1,5 +1,4 @@
 import React from "react";
-// import waveportal from "../assets/portfolio/waveportal.jpg";
 import quoteQuote1 from "../assets/portfolio/quoteQuote1.jpg";
 import apiProduct from "../assets/portfolio/apiProduct .jpg"
 import profileMang from "../assets/portfolio/profileMang.jpg";

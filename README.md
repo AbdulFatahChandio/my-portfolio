@@ -1,5 +1,4 @@
 
-<a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://www.copyrighted.com/website/DU3xamocM6m04Utg"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="75" srcset="https://static.copyrighted.com/badges/125x75/06_2x.png 2x" src="https://static.copyrighted.com/badges/125x75/06.png" /></a>
 
 
 # Getting Started with Create React App
@@ -66,8 +65,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+The easiest way to deploy your React.js app is to use the Vercel Platform from the creators of React.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Check out our React.js deployment documentation for more details.
+
 
 ### `npm run build` fails to minify
 

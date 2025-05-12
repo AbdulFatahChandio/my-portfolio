@@ -94,9 +94,9 @@ export default Contact;
     emailjs
       .sendForm(
         'service_xqha245', // ✅ your EmailJS Service ID
-        'template_4k1ilxi', // ✅ your EmailJS Template ID
+        'template_tfiexvo', // ✅ your EmailJS Template ID
         form.current,
-        '9RZieBu5UswPQWYRm' // ✅ your Public Key
+        '-KkpZbA4UXe6s0-7q' // ✅ your Public Key
       )
       .then(
         (result) => {

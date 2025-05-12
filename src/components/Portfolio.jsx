@@ -2,29 +2,31 @@ import React from "react";
 // import waveportal from "../assets/portfolio/waveportal.jpg";
 import quoteQuote1 from "../assets/portfolio/quoteQuote1.jpg";
 import apiProduct from "../assets/portfolio/apiProduct .jpg"
-import taskMang from "../assets/portfolio/taskMang.jpg";
 import profileMang from "../assets/portfolio/profileMang.jpg";
-import tracker from "../assets/portfolio/tracker.jpg"
+import tracker from "../assets/portfolio/tracker.jpg";
+import portfolio010 from  "../assets/portfolio/portfolio010.jpg";
+import afcFood from "../assets/portfolio/afcFood.jpg";
 
 const Portfolio = () => {
   const portfolios = [
+    
     {
       id: 1,
-      src: apiProduct,
-      link : "https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_backenddevelopment-nodejs-expressjs-activity-7320411250511769600-I4a1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE",
-      repo: 'https://github.com/AbdulFatahChandio/postmanAPI.git'
+      src: portfolio010,
+      link: 'abdul-fatah-chandio.vercel.app',
+      repo: 'https://github.com/AbdulFatahChandio/my-portfolio.git'
     },
     {
-      id: 2,
-      src: tracker,
-      link: 'https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_nodejs-expressjs-websockets-activity-7287758237678923778-kyfE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE',
-      repo: 'https://github.com/AbdulFatahChandio'
+      id: 6,
+      src: afcFood,
+      link: 'https://afc-food.vercel.app/',
+      repo: 'https://github.com/AbdulFatahChandio/restaurant-reservation'
     },
     {
       id: 3,
-      src: taskMang,
-      link: 'https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_nodejs-expressjs-ejs-activity-7276131143375032320-GsU1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE',
-      repo: 'https://github.com/AbdulFatahChandio/Task-Manager.git'
+      src: profileMang,
+      link: 'https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_nodejs-expressjs-fullstackdevelopment-activity-7280284633118691328-7iaC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE',
+      repo: 'https://github.com/AbdulFatahChandio'
     },
     {
       id: 4,
@@ -33,11 +35,21 @@ const Portfolio = () => {
       repo: 'https://github.com/AbdulFatahChandio/Quote-Generator.git'
     },
     {
+      id: 2,
+      src: apiProduct,
+      link : "https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_backenddevelopment-nodejs-expressjs-activity-7320411250511769600-I4a1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE",
+      repo: 'https://github.com/AbdulFatahChandio/postmanAPI.git'
+    },
+    {
       id: 5,
-      src: profileMang,
-      link: 'https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_nodejs-expressjs-fullstackdevelopment-activity-7280284633118691328-7iaC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE',
+      src: tracker,
+      link: 'https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_nodejs-expressjs-websockets-activity-7287758237678923778-kyfE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE',
       repo: 'https://github.com/AbdulFatahChandio'
     },
+    
+    
+    
+    
    
   ];
 

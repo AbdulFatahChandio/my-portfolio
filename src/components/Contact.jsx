@@ -1,13 +1,32 @@
-import React from "react";
-
-//function for form reset
-function handleSubmit(e){
-  setTimeout(() => {
-    e.target.reset();
-  }, 3000);
-}
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_xqha245', // ✅ your EmailJS Service ID
+        'template_4k1ilxi', // ✅ your EmailJS Template ID
+        form.current,
+        '9RZieBu5UswPQWYRm' // ✅ your Public Key
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Failed to send message. Try again.");
+        }
+      );
+  };
+
   return (
     <div
       name="contact"
@@ -20,25 +39,23 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        
-        <div className=" flex justify-center items-center">
+
+        <div className="flex justify-center items-center">
           <form
-            onSubmit={handleSubmit}
-            name="contact"
-            method="POST"
-            action="https://getform.io/f/avrwowda"
-            className=" flex flex-col w-full md:w-1/2"
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"
-              name="name"
+              name="user_name"
               placeholder="Enter your name"
               required
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
-              name="email"
+              name="user_email"
               placeholder="Enter your email"
               required
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
@@ -51,7 +68,10 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button type="submit" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button
+              type="submit"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+            >
               Send Message
             </button>
           </form>

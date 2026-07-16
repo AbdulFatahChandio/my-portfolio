@@ -48,8 +48,9 @@ body {
 }
 
 .portfolio,
+.myWork,
 .contact {
-  margin-top: 8%;
+  margin-top: 4%;
 }
 
 .experience {
@@ -80,6 +81,7 @@ body {
 
   .about,
   .portfolio,
+  .myWork,
   .experience {
     margin-top: 10%;
   }

@@ -14,18 +14,20 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-5">
-        I am a web developer, working in both, backend and frontend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology and currently doing freelance gigs.
+          I am a Website Developer working across frontend and backend. I specialize in AI-related work and build websites, mobile apps, and AI agents for real-world business needs.
         </p>
 
         <br />
 
         <p className="text-xl mt-5">
-        I like to code matters from scratch and love the idea of bringing thoughts to life. Connect with me to get your project done. <br /> <br />
-        I value minimalistic designs, thoughtful branding of the content, and customer relatable experience. Let’s discover together how we can make your project convert better!<br /> <br />
-        I enjoy creating or redesigning a distinct identity for a product or service, get more traffic from search engine and social platforms.
+          I like building products from scratch and turning ideas into working solutions. Connect with me to get your project done.
+          <br /> <br />
+          I focus on clean design, thoughtful branding, and a smooth user experience — so your product looks great and converts better.
+          <br /> <br />
+          Whether it is a website, a mobile app, or an AI agent, I help you ship modern digital products that grow with your business.
         </p>
-        <p className="text-xl mt-5">
-          Stay Connted : abdulfatahchandio61@gmail.com
+        <p className="text-xl mt-5 mb-8">
+          Stay Connected : abdulfatahchandio61@gmail.com
         </p>
         
 

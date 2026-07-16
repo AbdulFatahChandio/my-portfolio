@@ -5,14 +5,34 @@ import profileMang from "../assets/portfolio/profileMang.jpg";
 import tracker from "../assets/portfolio/tracker.jpg";
 import portfolio010 from  "../assets/portfolio/portfolio010.jpg";
 import afcFood from "../assets/portfolio/afcFood.jpg";
+import burmmezeAdmin from "../assets/burmmezeAdmin.png";
+import burmmezeFront from "../assets/burmmeze.stag.png";
+import rostaFront from "../assets/rostaFront.png";
 
 const Portfolio = () => {
   const portfolios = [
-    
+    {
+      id: 7,
+      src: burmmezeAdmin,
+      link: 'https://staging-admin.burmmeze.com/',
+      repo: 'https://github.com/AbdulFatahChandio'
+    },
+    {
+      id: 8,
+      src: rostaFront,
+      link: 'https://staging-front.rosta.ae/',
+      repo: 'https://github.com/AbdulFatahChandio'
+    },
+    {
+      id: 9,
+      src: burmmezeFront,
+      link: 'https://staging-front.burmmeze.com/',
+      repo: 'https://github.com/AbdulFatahChandio'
+    },
     {
       id: 1,
       src: portfolio010,
-      link: 'abdul-fatah-chandio.vercel.app',
+      link: 'https://abdul-fatah-chandio.vercel.app',
       repo: 'https://github.com/AbdulFatahChandio/my-portfolio.git'
     },
     {
@@ -45,17 +65,12 @@ const Portfolio = () => {
       link: 'https://www.linkedin.com/posts/abdul-fatah-chandio-1b7112322_nodejs-expressjs-websockets-activity-7287758237678923778-kyfE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGHy5sBLzkpiTr8rPeSUXi0ppCMa92e4WE',
       repo: 'https://github.com/AbdulFatahChandio'
     },
-    
-    
-    
-    
-   
   ];
 
   return (
     <div
       name="My Work"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen myWork"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen myWork pt-8"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "../assets/Me.jpg"
+import Me from "../assets/me3.png"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -19,10 +19,10 @@ const Home = () => {
         </div>
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm Abdul Fatah Chandio || Full Stack Web Developer
+            I'm Abdul Fatah Chandio || Website Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          I'm a passionate Computer Science student at Sindh Madarastul Islam University, with a strong focus on Full Stack Development using the MERN stack (MongoDB, Express.js, React, Node.js). I specializes in backend development with Node.js and has experience in building scalable, user-friendly applications, Proficient in C, HTML, CSS, JavaScript, and Python. Currently enrolled in the AI track of the Presidential Initiative for AI and Computing (PIAIC).
+            I'm a Website Developer focused on AI-related work. I build websites, mobile apps, and AI agents — delivering modern, scalable, and user-friendly digital solutions.
           </p>
 
           <div className="portfolio-btn">

@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
       <div>
-        {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="https://rahulkarda.netlify.app">Rahul</a></h1> */}
+        {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="https://abdul-fatah-chandio.vercel.app">Abdul Fatah Chandio</a></h1> */}
         <h1 className="text-5xl font-signature ml-2"><a className="link-underline link-underline-black" href="https://www.linkedin.com/in/abdul-fatah-chandio-1b7112322/" target="_blank" rel="noreferrer">Fatah</a></h1>
       </div>
 
